@@ -1,4 +1,5 @@
-import Users from "../component/Users"
+import { Users } from "../component/Users"
+
 
 
 function Admin() {

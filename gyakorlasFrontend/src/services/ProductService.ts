@@ -1,4 +1,4 @@
-import type { ProductType } from "../types/productType";
+import type { ProductType } from "../types/ProductType";
 
 const API_vegpont = "http://127.0.0.1:8000/api/products";
 

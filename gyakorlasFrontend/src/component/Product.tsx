@@ -1,10 +1,10 @@
-import type { ProductType } from "../types/productType";
+import type { ProductType } from "../types/ProductType";
 
-interface ProductsProps{
+interface ProductProps{
     product: ProductType;
 }
 
-export function Product({product}: ProductsProps){
+export function Product({product}: ProductProps){
     return(
         <div>
             <h2>{product.title}</h2>

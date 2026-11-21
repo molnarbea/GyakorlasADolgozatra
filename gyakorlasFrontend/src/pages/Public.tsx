@@ -1,8 +1,12 @@
+import { Products } from "../component/Products"
 
 
 function Public() {
   return (
-    <div>Public</div>
+    <>
+      <div>Public</div>
+      <Products/>
+    </>
   )
 }
 

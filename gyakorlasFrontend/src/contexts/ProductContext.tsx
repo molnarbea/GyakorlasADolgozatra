@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
-import type { ProductType } from "../types/productType";
 import { getProducts } from "../services/ProductService";
+import type { ProductType } from "../types/ProductType";
 
 interface ProductContextType{
     productList: ProductType[];

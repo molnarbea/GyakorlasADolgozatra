@@ -1,10 +1,10 @@
-import type { UserType } from "../types/userType";
+import type { UserType } from "../types/UserType";
 
-interface UsersProps {
+interface UserProps {
   user: UserType;
 }
 
-export function User({ user }: UsersProps) {
+export function User({ user }: UserProps) {
   return (
     <tr>
       <td>{user.id}</td>
