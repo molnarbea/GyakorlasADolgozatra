@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
-import type { UserType } from "../type/userType";
+import type { UserType } from "../types/userType";
 import { getUsers } from "../services/UserService";
 
 interface UserContextType{

@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
-import type { ProductType } from "../type/productType";
+import type { ProductType } from "../types/productType";
 import { getProducts } from "../services/ProductService";
 
 interface ProductContextType{

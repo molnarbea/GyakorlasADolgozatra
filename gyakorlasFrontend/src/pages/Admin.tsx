@@ -1,8 +1,14 @@
+import Users from "../component/Users"
 
 
 function Admin() {
   return (
-    <div>Admin</div>
+    <>
+      <div>Admin</div>
+        <article>
+          <Users/>
+        </article>
+    </>
   )
 }
 
