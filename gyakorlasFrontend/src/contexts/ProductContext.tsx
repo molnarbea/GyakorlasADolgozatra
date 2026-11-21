@@ -30,7 +30,7 @@ export function ProductProvider({children}: {children: ReactNode}){
     );
 }
 
-export function useUserContext(){
+export function useProductContext(){
     const context = useContext(ProductContext);
     if(context == undefined){
         throw new Error("Csak a ProductProvider-en belül használható");

@@ -4,7 +4,7 @@ interface UsersProps {
   user: UserType;
 }
 
-function User({ user }: UsersProps) {
+export function User({ user }: UsersProps) {
   return (
     <tr>
       <td>{user.id}</td>
@@ -13,5 +13,3 @@ function User({ user }: UsersProps) {
     </tr>
   );
 }
-
-export default User;

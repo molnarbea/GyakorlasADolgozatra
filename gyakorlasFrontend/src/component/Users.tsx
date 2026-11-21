@@ -1,8 +1,9 @@
 import { useUserContext } from "../contexts/UserContext";
-import User from "./User";
+import { User } from "./User";
 
 
-function Users() {
+
+export function Users() {
   const { userList, load, error } = useUserContext();
 
   if (load) {
@@ -20,5 +21,3 @@ function Users() {
     </table>
   );
 }
-
-export default Users;
