@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
             'title' => 'Klasszikus fehér póló',
             'description' => 'Kényelmes pamut póló mindennapi viselethez',
             'price' => 4990,
-            'picture' => 'feher_polo.jpg'
+            'picture' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa-9P2rtt9StygamWhCcqNkxYB9_A3T5QSw7LXSrX-kQ&s'
         ]);
 
         Product::create([
@@ -31,7 +31,7 @@ class DatabaseSeeder extends Seeder
             'title' => 'Fekete slim fit farmer',
             'description' => 'Modern szabású férfi farmer',
             'price' => 15990,
-            'picture' => 'fekete_farmer.jpg'
+            'picture' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfLlCrxOKRkTpmucQdFrP1KmA9QEh5SpoS4ura-N8vqA&s=10'
         ]);
 
         Product::create([
@@ -39,15 +39,15 @@ class DatabaseSeeder extends Seeder
             'title' => 'Virágmintás nyári ruha',
             'description' => 'Könnyű és elegáns nyári viselet',
             'price' => 12990,
-            'picture' => 'nyari_ruha.jpg'
+            'picture' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj0oxvkrpnb_1PO_IGkhQh4nXiHAJZJzkxJtgSN3wcaA&s=10'
         ]);
 
         Product::create([
             'seller_id' => 1,
             'title' => 'Kapucnis pulóver',
-            'description' => 'Meleg uniszex pulóver',
+            'description' => 'Meleg pulóver',
             'price' => 9990,
-            'picture' => 'pulover.jpg'
+            'picture' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzg2PvpprRA4j2BXwvLInKS1OV10MHw0PSVRP-lgjREw&s=10'
         ]);
 
         Product::create([
@@ -55,7 +55,7 @@ class DatabaseSeeder extends Seeder
             'title' => 'Műbőr kabát',
             'description' => 'Divatos fekete kabát',
             'price' => 24990,
-            'picture' => 'borkabat.jpg'
+            'picture' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcb0Uh_j7QrgVlHaOGfkNChsgFSSp7pk00TfTxa2tfyA&s=10'
         ]);
 
         Product::create([
@@ -63,7 +63,7 @@ class DatabaseSeeder extends Seeder
             'title' => 'Sport rövidnadrág',
             'description' => 'Futáshoz és edzéshez',
             'price' => 6990,
-            'picture' => 'rovidnadrag.jpg'
+            'picture' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq0bT3cbkiZHlH8GZgzpRVWRkY0uAgiJ0gJ_dL0znEGA&s=10'
         ]);
 
         Product::create([
@@ -71,7 +71,7 @@ class DatabaseSeeder extends Seeder
             'title' => 'Kockás ing',
             'description' => 'Hosszú ujjú férfi ing',
             'price' => 8990,
-            'picture' => 'kockas_ing.jpg'
+            'picture' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6MeHTONdflmHVeoR2hOrlausFQNcH564WYyXnrRQUeg&s=10'
         ]);
 
         Product::create([
@@ -79,7 +79,7 @@ class DatabaseSeeder extends Seeder
             'title' => 'Bélelt télikabát',
             'description' => 'Hideg időre tervezve',
             'price' => 34990,
-            'picture' => 'telikabat.jpg'
+            'picture' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm8DeOPYJdgrDb8QOIZv1jKs8xr4T-2pjPg_aX7LfztQ&s=10'
         ]);
 
         Product::create([
@@ -87,7 +87,7 @@ class DatabaseSeeder extends Seeder
             'title' => 'Pliszírozott szoknya',
             'description' => 'Elegáns női szoknya',
             'price' => 10990,
-            'picture' => 'szoknya.jpg'
+            'picture' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt19V-0uKkmTnlGKWoqhM4ktNH2XMEP88CS-OIECrgKA&s=10'
         ]);
 
         Product::create([
@@ -95,7 +95,7 @@ class DatabaseSeeder extends Seeder
             'title' => 'Farmerdzseki',
             'description' => 'Világoskék divatos dzseki',
             'price' => 18990,
-            'picture' => 'farmerdzseki.jpg'
+            'picture' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_MV0qZKXNkoDdgASLJlh8MuXABg3vdhiHfHEveewgw&s=10'
         ]);
     }
 }

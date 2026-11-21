@@ -15,6 +15,11 @@ function Layout() {
         <main>
           <Outlet/>
         </main>
+        <footer>
+          <p>
+            Molnár Beatrix
+          </p>
+        </footer>
     </>
   )
 }

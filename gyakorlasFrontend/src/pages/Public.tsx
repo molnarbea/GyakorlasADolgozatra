@@ -1,10 +1,10 @@
 import { Products } from "../component/Products"
+import './public.css'
 
 
 function Public() {
   return (
     <>
-      <div>Public</div>
       <Products/>
     </>
   )

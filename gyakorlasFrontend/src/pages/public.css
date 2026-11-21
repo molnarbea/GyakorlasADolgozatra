@@ -1,0 +1,24 @@
+article{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.productKartya{
+    border: black 2px solid;
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+}
+
+p{
+    font-size: 14pt;
+}
+
+img{
+    display: block;
+    margin: 0px auto;
+    max-height: 300px;
+    border: black 2px solid;
+}

@@ -6,11 +6,11 @@ interface ProductProps{
 
 export function Product({product}: ProductProps){
     return(
-        <div>
+        <div className="productKartya">
             <h2>{product.title}</h2>
-            <p>{product.picture}</p>
+            <img src={product.picture} alt="kép" />
             <p>{product.description}</p>
-            <p>{product.price}</p>
+            <p>{product.price} Ft</p>
         </div>
     )
 }
