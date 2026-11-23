@@ -15,6 +15,13 @@ export function Users() {
 
   return (
     <table>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Felhasználó eltávolítása</th>
+      </tr>
+      
       {userList.map((user) => {
         return <User user={user} key={user.id} />;
       })}

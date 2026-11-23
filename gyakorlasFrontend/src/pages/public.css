@@ -9,11 +9,13 @@ article{
     border: black 2px solid;
     width: 300px;
     height: 450px;
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
 }
 
 p{
     font-size: 14pt;
+    margin: 0px ;
 }
 
 img{
@@ -21,4 +23,10 @@ img{
     margin: 0px auto;
     max-height: 300px;
     border: black 2px solid;
+}
+
+.kosarbaGomb{
+    padding: 10px;
+    background-color: black;
+    color: white;
 }

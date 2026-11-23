@@ -1,14 +1,11 @@
 import { Users } from "../component/Users"
-
+import './admin.css'
 
 
 function Admin() {
   return (
     <>
-      <div>Admin</div>
-        <article>
-          <Users/>
-        </article>
+      <Users/>
     </>
   )
 }

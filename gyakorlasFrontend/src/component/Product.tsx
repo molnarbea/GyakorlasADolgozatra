@@ -11,6 +11,7 @@ export function Product({product}: ProductProps){
             <img src={product.picture} alt="kép" />
             <p>{product.description}</p>
             <p>{product.price} Ft</p>
+            <button className="kosarbaGomb">Kosárba</button>
         </div>
     )
 }
